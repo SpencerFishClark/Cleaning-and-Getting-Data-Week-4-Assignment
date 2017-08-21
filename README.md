@@ -1,4 +1,4 @@
-eGetting and Cleaning Data Week 4 assignment.
+Getting and Cleaning Data Week 4 assignment.
 
 1. Downloaded and unzipped the data file into my working directory
 2. Downloaded R source code into R working Directory
