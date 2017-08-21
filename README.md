@@ -1,3 +1,4 @@
+
 Getting and Cleaning Data Week 4 assignment.
 
 1. Downloaded and unzipped the data file into my working directory
@@ -9,10 +10,14 @@ Data Description
 Variable in data x are sensor signals meaured with waist-mounted smartphones. Variable in data y shows the activity type the people performed.
 
 Code Explained
+
 Code combined training data and test data, partial vvariables were extracted to create another dataset with the averages of the activity types for all subjects.  The mean and standard deviation was calculated for the new generated dataset. Each row is average of the activity type for all subjects. 
 
 Code based on instructions of assignment
-Read training and test dataset into R environment. Read variable names into R environment. Read subject index into R environment. 
+
+Read training and test dataset into R environment.
+Read variable names into R environment. 
+Read subject index into R environment. 
 Merged training and test sets to create one data set.
 Command rbind was used to combine test and training sets. 
 Use of grep command to get column indexes for variable names mean and std. 
